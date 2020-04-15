@@ -4,10 +4,6 @@ import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.stream.Collectors;
 
-/**
- * Hello world!
- *
- */
 public class App 
 {
     public static void main( String[] args )
