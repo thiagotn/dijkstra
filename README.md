@@ -9,3 +9,9 @@
     mvn exec:java -Dexec.mainClass=cc.thiago.App
 
     or Run > App.java
+
+
+### References
+
+https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm
+
