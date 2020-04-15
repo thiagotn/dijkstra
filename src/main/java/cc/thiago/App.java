@@ -12,7 +12,7 @@ public class App
 {
     public static void main( String[] args )
     {
-        System.out.println( "Dijkstra!" );
+        System.out.println( "Dijkstra algorithm!" );
 
         Node nodeA = new Node("A");
         Node nodeB = new Node("B");
