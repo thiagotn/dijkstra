@@ -28,7 +28,7 @@ public class Node {
      * with Integer.MAX_VALUE to simulate an infinite 
      * distance as described in the initialization step.
     */
-     private Integer distance = Integer.MAX_VALUE;
+    private Integer distance = Integer.MAX_VALUE;
 
     /**
      * The adjacentNodes attribute is used to associate immediate 
@@ -36,7 +36,7 @@ public class Node {
      * of an adjacency list, which is more suitable for the 
      * Dijkstra algorithm than the adjacency matrix.
      */
-     Map<Node, Integer> adjacentNodes = new HashMap<>();
+    Map<Node, Integer> adjacentNodes = new HashMap<>();
 
     public void addDestination(Node destination, int distance) {
         adjacentNodes.put(destination, distance);
