@@ -12,6 +12,15 @@ Algoritmo que calcula o caminho mais curto, em termos de peso total das arestas,
 
     or Run > App.java
 
+### Expected output
+
+    Dijkstra algorithm!
+    The shortest paths from Node A are as follows:
+    from Node A to Node B: A -> B (total distance = 10) 
+    from Node A to Node C: A -> C (total distance = 15) 
+    from Node A to Node D: A -> B -> D (total distance = 22) 
+    from Node A to Node F: A -> B -> D -> F (total distance = 23) 
+    from Node A to Node E: A -> B -> D -> E (total distance = 24) 
 
 ### References
 
