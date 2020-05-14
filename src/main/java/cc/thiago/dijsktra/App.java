@@ -1,4 +1,4 @@
-package cc.thiago;
+package cc.thiago.dijsktra;
 
 import java.util.LinkedHashMap;
 import java.util.Map;

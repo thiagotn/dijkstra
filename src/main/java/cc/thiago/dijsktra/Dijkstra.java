@@ -1,4 +1,4 @@
-package cc.thiago;
+package cc.thiago.dijsktra;
 
 import java.util.HashMap;
 import java.util.HashSet;
@@ -81,20 +81,13 @@ public class Dijkstra {
         }
     }
 
-        /**
+    /**
      * Finally, we can calculate the shortest paths from node A are as follows:
-        Node B : A –> B (total distance = 10)
-        Node C : A –> C (total distance = 15)
-        Node D : A –> B –> D (total distance = 22)
-        Node E : A –> B –> D –> E (total distance = 24)
-        Node F : A –> B –> D –> F (total distance = 23)
-
-        A -> A (total distance = 0) 
-        A -> B (total distance = 10)
-        A -> C (total distance = 15)
-        A -> D (total distance = 22) 
-        A -> E (total distance = 24)         
-        A -> F (total distance = 23) 
+     * Node B : A –> B (total distance = 10)
+     * Node C : A –> C (total distance = 15)
+     * Node D : A –> B –> D (total distance = 22)
+     * Node E : A –> B –> D –> E (total distance = 24)
+     * Node F : A –> B –> D –> F (total distance = 23)
      */
     public static void printGraph(Graph graph, Node source) {
         System.out.println("The shortest paths from Node " + source.getName() + " are as follows:");

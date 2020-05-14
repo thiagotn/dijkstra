@@ -1,4 +1,4 @@
-package cc.thiago;
+package cc.thiago.dijsktra;
 
 import java.util.HashSet;
 import java.util.Set;
